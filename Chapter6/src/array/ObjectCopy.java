@@ -23,7 +23,7 @@ public class ObjectCopy {
 		for( Book book : copyLibrary) {
 			book.showBookInfo();
 		}
-		
+		// library의 0번째 값을 수정하기 전을 출력한다.
 		System.out.println("================");
 		
 		library[0].setTitle("나목");
@@ -32,7 +32,7 @@ public class ObjectCopy {
 		for (Book book : library) {
 			book.showBookInfo();
 		}
-		
+		// library의 0번째 값을 수정한 것을 출력한다.
 		System.out.println("================");
 		
 		for (Book book : library) {
