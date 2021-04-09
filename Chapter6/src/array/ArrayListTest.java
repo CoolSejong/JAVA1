@@ -28,6 +28,10 @@ public class ArrayListTest {
 			String str = list.get(i);
 			System.out.println(str);
 		}
+		
+		for(String s : list) {
+			System.out.println(s);
+		}
 	}
 
 }
